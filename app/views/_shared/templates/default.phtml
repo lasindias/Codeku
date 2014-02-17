@@ -4,9 +4,12 @@
     <head>
         <title>Codeka Facturacion Web</title>
  
-        <?php Tag::css('estilos') ?>
-        <?php Tag::css('style') ?>
-        <?php echo Html::includeCss() ?>
+        <?php Tag::css('theme'); ?>
+        <?php echo Html::includeCss(); ?>
+        
+        <?php echo Tag::js('JSCookMenu'); ?>
+        <?php echo Tag::js('theme'); ?>
+        
     </head>
     <body>
         <?php View::partial('menu') ?>
