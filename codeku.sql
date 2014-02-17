@@ -126,5 +126,3 @@ CREATE TABLE IF NOT EXISTS `entidades` (
   `borrado` varchar(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`codentidad`)
 )
-
-
