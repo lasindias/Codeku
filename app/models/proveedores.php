@@ -8,6 +8,6 @@
  
 Load::models('proveedores');
  
-class Proveedores extends ActiveRecord{
+class Proveedores extends ActiveRecord {
  
 }

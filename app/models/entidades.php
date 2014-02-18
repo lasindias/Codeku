@@ -8,6 +8,6 @@
  
 Load::models('entidades');
  
-class Entidades extends ActiveRecord{
+class Entidades extends ActiveRecord {
  
 }

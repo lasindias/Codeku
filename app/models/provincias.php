@@ -8,6 +8,6 @@
  
 Load::models('provincias');
  
-class Provincias extends ActiveRecord{
+class Provincias extends ActiveRecord {
  
 }
