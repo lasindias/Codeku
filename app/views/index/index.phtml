@@ -55,6 +55,16 @@ $rs_borrar=mysql_query($sel_borrar);
 
 ?>
 -->
+
+<style type="text/css">
+.Estilo4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; }
+.Estilo5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.Estilo6 {font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif;}
+</style>
+
 <table width="90%" border="0" align="center">
   <tr height="90px">
     <td>&nbsp;</td>
@@ -63,7 +73,7 @@ $rs_borrar=mysql_query($sel_borrar);
   </tr>
   <tr height="200px">
     <td>&nbsp;</td>
-    <td><div align="center"><?php echo Html::img('central.jpg'); ?></div></td>
+    <td><div align="center"><?php echo Html::img('central.jpg', null, array('width'=>'550', 'height'=>'200', 'border'=>'0')); ?></div></td>
     <td>&nbsp;</td>
   </tr>
   <tr>
@@ -99,7 +109,7 @@ $rs_borrar=mysql_query($sel_borrar);
       <td height="27">&nbsp;</td>
       <td><table width="50%" border="0" align="center">
         <tr>
-          <td width="38%"><div align="right"><?php echo Html::img('firefox.gif'); ?></div></td>
+          <td width="38%"><div align="right"><?php echo Html::img('firefox.gif', null, array('width'=>'80', 'height'=>'15')); ?></div></td>
           <td width="62%"><span class="Estilo5">Aplicación optimizada para Firefox </span></td>
         </tr>
       </table></td>
