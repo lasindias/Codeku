@@ -1,13 +1,13 @@
 <?php
-
-/**
- * Controller para manejar las peticiones relacionadas
- * con el modelo de datos «Proveedores» 
- * 
- */
- 
-Load::models('proveedores');
  
 class Proveedores extends ActiveRecord {
- 
+    
+    /**
+     * Retorna los proveedores para ser paginados
+     *
+     */
+    public function getProveedores($page, $ppage=20)
+    {
+        return $this->paginate("page: $page", "per_page: $ppage", 'order: id desc');
+    }
 }

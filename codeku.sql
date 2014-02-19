@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS `proveedores` (
   `web` varchar(45) NOT NULL,
   `borrado` varchar(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-)
+)ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='Proveedores' AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
@@ -54,7 +54,7 @@ CREATE TABLE IF NOT EXISTS `provincias` (
   `id` int(2) NOT NULL AUTO_INCREMENT,
   `nombreprovincia` varchar(40) NOT NULL,
   PRIMARY KEY (`id`)
-)
+)ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='Proveedores' AUTO_INCREMENT=1 ;
 
 --
 -- Volcado de datos para la tabla `provincias`
@@ -124,5 +124,5 @@ CREATE TABLE IF NOT EXISTS `entidades` (
   `id` int(2) NOT NULL AUTO_INCREMENT,
   `nombreentidad` varchar(50) NOT NULL,
   `borrado` varchar(1) NOT NULL DEFAULT '0',
-  PRIMARY KEY (`codentidad`)
-)
+  PRIMARY KEY (`id`)
+)ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='Proveedores' AUTO_INCREMENT=1 ;
