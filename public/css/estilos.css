@@ -334,3 +334,10 @@ a:hover {
 	border-width :1px;
 	height:15pt;
 }
+
+.Estilo4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; }
+.Estilo5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.Estilo6 {font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif;}
