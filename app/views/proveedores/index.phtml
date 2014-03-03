@@ -2,7 +2,6 @@
 	<div id="zonaContenido">
 	<div align="center">
 		<div id="tituloForm" class="header">Buscar PROVEEDOR </div>
-		<?php View::content(); ?>
 		<div id="frmBusqueda">
 			<?php echo Form::open(); ?>
 			<table class="fuente8" width="98%" cellspacing=0 cellpadding=3 border=0>					
@@ -46,9 +45,7 @@
 				  </tr>
 			</table>
 			<div id="botonBusqueda"><?php echo Form::submit('Buscar') ?>
-				<?php echo Html::linkAction("limpiar", Html::img('botonlimpiar.jpg')); ?>
 				<?php echo Html::linkAction("crear", Html::img('botonnuevoproveedor.jpg')); ?>
-				<?php echo Html::linkAction("imprimir", Html::img('botonimprimir.jpg')); ?>
 			</div>
 		  <?php echo Form::close() ?>
 		</div>
@@ -63,6 +60,7 @@
 				<div id="cabeceraResultado" class="header">
 					relacion de PROVEEDORES </div>
 				<div id="frmResultado">
+				<?php View::content(); ?>
 				<table class="fuente8" width="100%" cellspacing=0 cellpadding=3 border=0 ID="Table1">
 						<tr class="cabeceraTabla">
 							<td width="8%">ITEM</td>

@@ -58,7 +58,8 @@
 			  </div>
 				<div id="botonBusqueda">
 					<?php echo Form::hidden('proveedor.borrado',null,0); ?>
-					<?php echo Form::submitImage('botonnuevoproveedor.jpg') ?>
+					<?php echo Form::hidden('proveedor.id'); ?>
+					<?php echo Form::submit('Actualizar') ?>
 			  </div>
 			  <?php echo Form::close() ?>
 		  </div>
